@@ -19,16 +19,24 @@
         
     </div>
     <div class="controls" style="width:50vw">
+        <button onclick="togglePanel('dial-panel')" id="dial-button">Dials</button>
+        <button onclick="togglePanel('insert-panel')" id="insert-button">Bezel Inserts</button>
         
-        <h2>Select Dial:</h2>
-        <img class="dial-option" id="dial1" src="parts/dial.png" alt="Dial 1" style="width:210px;height:210px;">
-        <img class="dial-option" id="dial2" src="parts/whiteDial.png" alt="Dial 2" style="width:210px;height:210px;">
+        <div class="control-panel" id="dial-panel">
+    <h2>Select Dial:</h2>
+    <img class="dial-option" id="dial1" src="parts/dial.png" alt="Dial 1" style="width:100px;height:100px;">
+    <img class="dial-option" id="dial2" src="parts/whiteDial.png" alt="Dial 2" style="width:100px;height:100px;">
+</div>
 
+<div class="control-panel" id="insert-panel">
+    <h2>Select Bezel Insert:</h2>
+    <img class="insert-option" id="insert1" src="parts/pepsiInsert.png" alt="Pepsi" style="width:100px;height:100px;">
+    <img class="insert-option" id="insert2" src="parts/kermitInsert.png" alt="Kermit" style="width:100px;height:100px;">
+    <img class="insert-option" id="insert3" src="parts/Yellow_White_Edit.png" alt="yellow whtie" style="width:100px;height:100px;">
+</div>
 
-        <h2>Select Bezel Insert:</h2>
-        <img class="insert-option" id="insert1" src="parts/pepsiInsert.png" alt="Pepsi" style="width:210px;height:210px;">
-        <img class="insert-option" id="insert2" src="parts/kermitInsert.png" alt="Kermit" style="width:210px;height:210px;">
-        <img class="insert-option" id="insert3" src="parts/Yellow_White_Edit.png" alt="yellow whtie" style="width:210px;height:210px;">
+<!-- Add toggle buttons -->
+
     </div>
     <script src="script.js"></script>
 </body>

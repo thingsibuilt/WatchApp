@@ -22,3 +22,32 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+const dialPanel = document.getElementById('dial-panel');
+const insertPanel = document.getElementById('insert-panel');
+const dialButton = document.getElementById('dial-button');
+const insertButton = document.getElementById('insert-button');
+
+// Function to show the Dial panel and set the button's background color
+function showDialPanel() {
+    dialPanel.style.display = 'block';
+    insertPanel.style.display = 'none';
+    dialButton.style.borderBlockColor = 'blue';
+    insertButton.style.borderBlockColor = '';
+}
+
+// Function to show the Insert panel and set the button's background color
+function showInsertPanel() {
+    insertPanel.style.display = 'block';
+    dialPanel.style.display = 'none';
+    insertButton.style.borderBlockColor = 'blue';
+    dialButton.style.borderBlockColor = '';
+}
+
+// Show the Dial panel on page load
+window.addEventListener('load', showDialPanel);
+
+// Event listeners for the toggle buttons
+dialButton.addEventListener('click', showDialPanel);
+insertButton.addEventListener('click', showInsertPanel);
+

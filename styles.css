@@ -25,3 +25,7 @@ body {
     margin-top: 20px;
     text-align: center;
 }
+
+.control-panel {
+    display: none; /* Hide all control panels by default */
+}
