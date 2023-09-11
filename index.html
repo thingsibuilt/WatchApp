@@ -15,8 +15,10 @@
         <img id="bezel" class="watch-part" src="parts/bezel.png" alt="Bezel" style="width:400px;height:400px;">
         <img id="dial" class="watch-part" src="parts/dial.png" alt="Dial" style="width:210px;height:210px;">
         <img id="chapter" class="watch-part" src="parts/02-Brushed-Black.png" alt="Dial" style="width:220px;height:220px;">
-        <img id="insert" class="watch-part" src="parts/pepsiInsert.png" alt="Insert" style="width:275px;height:275px;">
-        <img id="hour" class="watch-part" src="parts/01-Hour.png" alt="hour" style="width:160px;height:160px; transform: rotate(80deg);">
+        <img id="insert" class="watch-part" src="parts/bezel_inserts/pepsiInsert.png" alt="Insert" style="width:275px;height:275px;">
+        <img id="hour" class="watch-part" src="parts/01-Hour.png" alt="hour" style="width:160px;height:160px; transform: rotate(180deg); margin-top: 45px;">
+        <img id="minute" class="watch-part" src="parts/01-Minute.png" alt="hour" style="width:170px;height:170px; transform: rotate(90deg); margin-left: 75px;">
+        <img id="second" class="watch-part" src="parts/01-Second.png" alt="hour" style="width:170px;height:170px; transform: rotate(290deg); margin-bottom:14px; margin-right: 50px;">
 
 
     </div>
@@ -47,12 +49,9 @@
 
         <div class="control-panel" id="insert-panel">
             <h2>Select Bezel Insert:</h2>
-            <img class="insert-option" id="insert1" src="parts/pepsiInsert.png" alt="Pepsi"
-                style="width:100px;height:100px;">
-            <img class="insert-option" id="insert2" src="parts/kermitInsert.png" alt="Kermit"
-                style="width:100px;height:100px;">
-            <img class="insert-option" id="insert3" src="parts/Yellow_White_Edit.png" alt="yellow whtie"
-                style="width:100px;height:100px;">
+            <div id="bezel-insert-options">
+                <!-- Images for bezel inserts will be added dynamically via JavaScript -->
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

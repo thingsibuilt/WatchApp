@@ -29,3 +29,8 @@ body {
 .control-panel {
     display: none; /* Hide all control panels by default */
 }
+
+.bezel-insert {
+    width:100px;
+    height:100px;
+}
