@@ -104,7 +104,7 @@ function showRingPanel() {
 // Function to populate bezel insert options with image previews
 async function populateBezelInserts() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/thingsibuilt/WatchApp/main/bezelInserts.json'); // Replace with the correct path to your JSON file
+        const response = await fetch('https://raw.githubusercontent.com/thingsibuilt/WatchApp/dev/bezelInserts.json'); // Replace with the correct path to your JSON file
         const data = await response.json();
         const bezelInsertOptions = document.getElementById('bezel-insert-options');
 

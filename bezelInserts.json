@@ -16,12 +16,12 @@
     },
     {
         "name": "Batman",
-        "imageUrl": "parts/bezel_inserts/Yellow_White_Edit.png",
+        "imageUrl": "parts/bezel_inserts/batman.png",
         "partUrl": ""
     },
     {
         "name": "Batman Quarter",
-        "imageUrl": "parts/bezel_inserts/Yellow_White_Edit.png",
+        "imageUrl": "parts/bezel_inserts/batmanQuarter.png",
         "partUrl": ""
     }
 ]
